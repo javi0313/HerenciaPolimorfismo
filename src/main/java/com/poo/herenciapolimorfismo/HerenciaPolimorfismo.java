@@ -7,6 +7,7 @@ package com.poo.herenciapolimorfismo;
 import com.poo.herenciapolimorfismo.modelo.Animal;
 import com.poo.herenciapolimorfismo.modelo.Gato;
 import com.poo.herenciapolimorfismo.modelo.Perro;
+import com.poo.herenciapolimorfismo.modelo.Pez;
 
 /**
  *
@@ -15,11 +16,12 @@ import com.poo.herenciapolimorfismo.modelo.Perro;
 public class HerenciaPolimorfismo {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
         // Variable de tipo Animal (padre)
 // Pero objeto real de tipo Perro (hijo)
 Animal mascota1 = new Perro();
 Animal mascota2 = new Gato();
+Pez mascota3 = new Pez();
 
 // El método ejecutado depende del 
 // tipo REAL del objeto, no de Animal
@@ -29,10 +31,12 @@ mascota2.hacerSonido();
   //Imprime: ¡Miau miau! (es Gato)
 // Mismo mensaje, DIFERENTES resultados
 
-Animal[] animales = {
+
+    Animal[] animales = {
   new Perro("Rex"),
   new Gato("Silvestre"),
-  new Animal("Piolin")
+  new Animal("Piolin"),
+  new Pez("Dory")
 };
 
 for (Animal animal : animales) {

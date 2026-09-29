@@ -1,0 +1,5 @@
+Apuntes sobre Polimorfismo clase 29/09
+El principio de susticion viene de la L de la palabra SOLID y este significa que se puede devolver de la hija al padre 
+O tambien se puede decir que los objetos de una clase derivada deben poder remplazar a los objetos de la clase base sin alterar el funcionamiento correcto del programa 
+ahora se hara un vistazo a el proyecto directamente en NetBeansEl polimorfismo tambien se puede llamar como SobreEscritura y este se envidencia con el @Overide 
+Ademas una sobrecarga es un metodo que tiene varias formas de hacerse. Por ejemplo dentro del codigo dado podemos ver que existen tres metodos llamados comer pero reciben diferentes parametrosLos objetos que se isntancian en la clase principal cumplen con la ley de susticion ya que permite usar la variable para representar diferentes tipos de animales mediante el polimorfismo 
