@@ -43,4 +43,6 @@ public class Animal {
     System.out.println(nombre + " come " + cantidad +
       " porciones de " + comida);
   }
+  
+  
 }
